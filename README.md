@@ -5,11 +5,11 @@ Welcome to Kickstarter. Assume we have a model called `Project` that inherits fr
 
 For each of the following descriptions, write out the corresponding:
 
-1. The HTTP Verb and URL (ie 'GET '/posts'')
-2. The rails controller action (ie 'posts#index')
+1. The HTTP Verb and URL (ie 'GET '/dogs'')
+2. The rails controller action (ie 'dogs#index')
 3. The corresponding CRUD action (ie 'READ)
 4. The corresponding ActiveRecord method (ie 'all')
-5. The corresponding SQL (ie 'SELECT * FROM posts')
+5. The corresponding SQL (ie 'SELECT * FROM dogs')
 
 ### Actions
 
