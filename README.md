@@ -9,7 +9,7 @@ For each of the following descriptions, write out the corresponding:
 2. The rails controller action (ie 'dogs#index')
 3. The corresponding CRUD action (ie 'READ)
 4. The corresponding ActiveRecord method (ie 'all')
-5. The corresponding SQL (ie 'SELECT * FROM dogs')
+
 
 ### Actions
 
