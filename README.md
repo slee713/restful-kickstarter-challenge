@@ -1,7 +1,11 @@
-# RESTFUL challenge
+# Discussion Questions: RESTful Challenge
 
-### Kickstarter
-Welcome to Kickstarter. Assume we have a model called `Project` that inherits from `ActiveRecord::Base`, a corresponding table called `projects`, and a controller called `ProjectsController` that inherits from `ApplicationController`
+## Kickstarter
+
+Welcome to Kickstarter. Assume we have a model called `Project` that inherits
+from `ActiveRecord::Base`, a corresponding table called `projects`, and a
+controller called `ProjectsController` that inherits from
+`ApplicationController`
 
 For each of the following descriptions, write out the corresponding:
 
@@ -10,8 +14,7 @@ For each of the following descriptions, write out the corresponding:
 3. The corresponding CRUD action (ie 'READ)
 4. The corresponding ActiveRecord method (ie 'all')
 
-
-### Actions
+## Actions
 
 1. Displays all of the projects
 2. Displays information about one project
