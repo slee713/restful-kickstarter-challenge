@@ -14,9 +14,16 @@ For each of the following descriptions, write out the corresponding:
 ### Actions
 
 1. Displays all of the projects
+    - get '/projects', to: "projects#index", (projects_path)
 2. Displays information about one project
+    - get '/projects/:id', to: "projects#show", (project_path)
 3. Displays a form to create a new project
+    - get '/projects/new', to: "projects#new", (new_project_path)
 4. Creates a new project based on given parameters
+    - post '/projects', to: "projects#create", 
 5. Displays a form to update an existing project
+    - get '/projects/:id/edit', to: "projects#edit", (edit_project_path)
 6. Updates an existing project with given parameters
+    - patch '/projects/:id', to: "projects#patch", 
 7. Deletes an existing project
+    - delete '/projects/:id', to: 'projects#destroy',
